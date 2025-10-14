@@ -1,0 +1,9 @@
+'use client';
+import { useEffect } from 'react';
+import feather from 'feather-icons';
+
+export const useFeatherIcons = () => {
+  useEffect(() => {
+    feather.replace();
+  });
+};
